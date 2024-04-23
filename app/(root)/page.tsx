@@ -10,7 +10,7 @@ export default function Home() {
         alt="banner"
         width={2000}
         height={1000}
-        className="w-screen"
+        className="w-screen mb-4"
       />
       <Collections />
       <ProductList />
