@@ -10,7 +10,7 @@ const Collections = async () => {
       {!collections || collections.length === 0 ? (
         <p className="text-body-bold">No collection found</p>
       ) : (
-        <div className="flex flex-wrap items-center justify-center gap-4">
+        <div className="flex flex-wrap items-center justify-center gap-6">
           {collections &&
             collections.map((collection: CollectionType) => (
               <Link
@@ -22,7 +22,7 @@ const Collections = async () => {
                   alt={collection.title}
                   width={300}
                   height={250}
-                  className="rounded-lg cursor-pointer"
+                  className="rounded-lg h-[180px] cursor-pointer"
                 />
               </Link>
             ))}
